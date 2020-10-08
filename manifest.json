@@ -7,7 +7,7 @@
   "description": "Formats the contents of an RFC to ease reading them.",
 
   "icons": {
-    "48": "icons/rfcviewer.png"
+    "48": "icons/icon-48.png"
   },
 
   "content_scripts": [
