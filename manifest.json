@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "RFCViewer",
+  "version": "1.0",
+
+  "description": "Formats the contents of an RFC to ease reading them.",
+
+  "icons": {
+    "48": "icons/rfcviewer.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://tools.ietf.org/html/*"],
+      "js": ["src/rfcviewer.js"]
+    }
+  ]
+
+}
